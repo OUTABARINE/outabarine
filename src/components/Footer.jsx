@@ -20,7 +20,7 @@ export default function Footer(props) {
         alignContent="center"
         justifyContent="center"
       >
-        <Grid container direction="row" justifyContent="center" spacing={2}>
+        {/* <Grid container direction="row" justifyContent="center" spacing={2}>
           {pages.map((page, index) => {
             return (
               <Grid item key={index} sx={{ mt: 8 }}>
@@ -33,7 +33,7 @@ export default function Footer(props) {
         </Grid>
         <Grid container direction="row" justifyContent="center" spacing={1}>
           <SocialMedia dark={props.dark} />
-        </Grid>
+        </Grid> */}
         <Grid
           container
           direction="row"
@@ -41,7 +41,7 @@ export default function Footer(props) {
           sx={{ pb: 1, pt: 1}}
         >
           <Typography variant="p" component="p">
-            © Fatima AMZIL, France
+            © Omar OUTABARINE, France
           </Typography>
         </Grid>
       </Grid>

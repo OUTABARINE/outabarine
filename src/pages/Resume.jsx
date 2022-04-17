@@ -5,7 +5,7 @@ import ToggleButtonGroup from "@mui/material/ToggleButtonGroup";
 import { Button, Grid, Stack, Typography } from "@mui/material";
 import { styled } from "@mui/system";
 import DownloadForOfflineIcon from '@mui/icons-material/DownloadForOffline';
-import resumeEnglish from "../assets/pdf/english/resume.pdf";
+import resumeEnglish from "../assets/pdf/french/resume.pdf";
 import resumeFrench from "../assets/pdf/french/resume.pdf";
 
 const CVBox = styled(Paper)(({ theme }) => ({
@@ -59,32 +59,16 @@ export default function Resume() {
                 maxWidth: "800px",
             }}
             >
-                Got a good opportunity for me? Here is my resume in {language} 
+                Got a good opportunity for me? Here is my resume
             </Typography>
             <CVBox variant="outlined" >
-                <Stack spacing={2} direction="row" sx={{ mb: 5}}>
-                    <ToggleButtonGroup
-                        color="secondary"
-                        value={language}
-                        exclusive
-                        onChange={handleLanguageSelect}
-                        >
-                        <ToggleButton value="french">French</ToggleButton>
-                        <ToggleButton value="english">English</ToggleButton>
-                    </ToggleButtonGroup>
-                    {/* <ToggleButtonGroup
-                        color="secondary"
-                        value={type}
-                        exclusive
-                        onChange={handleTypeSelect}
-                        >
-                        <ToggleButton value="short">Short</ToggleButton>
-                        <ToggleButton value="long">Long</ToggleButton>
-                    </ToggleButtonGroup> */}
-                </Stack>
+                
                 <Stack direction="row">
                     <Button href={ResumeURL} variant="contained" sx={{ color: "primary.contrastText", bgcolor: "primary.light" }} endIcon={<DownloadForOfflineIcon />} download>
-                        Download
+                        Download resume
+                    </Button><r/>
+                    <Button href={ResumeURL} variant="contained" sx={{ color: "primary.contrastText", bgcolor: "primary.light" }} endIcon={<DownloadForOfflineIcon />} download>
+                        Télécharger le CV
                     </Button>
                 </Stack>
             </CVBox> 

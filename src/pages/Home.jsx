@@ -15,7 +15,7 @@ export default function Home() {
       >
         <Grid item xs={8}>
           <Avatar
-            alt="Fatima AMZIL"
+            alt="Omar OUTABARINE"
             src={me}
             sx={{ width: 300, height: 300 }}
           />
@@ -31,7 +31,7 @@ export default function Home() {
              }}
              gutterBottom
           >
-            Fatima AMZIL
+            Omar OUTABARINE
           </Typography>
         </Grid>
 
@@ -42,7 +42,7 @@ export default function Home() {
             justifyContent="center"
             alignContent="center"
           >
-            Software Engineer - FrontEnd developer - Technical Writer
+            Software Engineer - Business Analyst - Agile & Scrum Paster
           </Typography>
         </Grid>
       </Grid>

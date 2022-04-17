@@ -76,16 +76,18 @@ export default function About() {
                 maxWidth: "800px",
               }}
             >
-              Hi, I'm Fatima AMZIL, a passionate Software Engineer!
+              Hi, I'm Omar OUTABARINE, a passionate Software Engineer!
             </Typography>
             <Typography variant="body1" gutterBottom>
-              I'm specialized in Angular, React, JavaScript, TypeScript and have
-              professional experience working with NodeJS and Java. I also have
-              experience with Bootstrap, Material UI and PrimeNG. I like working
-              on projects that bring value, modernity, and innovation. I mentor
-              students and future developers on MyJobGlasses. I write technical
-              content on Medium and DEV and I share my passion for web
-              developement with people worldwide.
+            My education and training has enabled me to acquire a solid foundation and knowledge in software 
+            science and engineering , which allows me to be able to carry out a varied number of both business
+             an technical missions. In addition, my internships allowed me to benefit from a real practice, 
+             so to develop my skills, to assert my rigour in the work, good interpersonal skills and to 
+             develop my ability to adapt and integrate.
+             <br/><br/>
+            With a strong motivation for new challenges, strong ability to integrate and work in groups, 
+            my sense of listening and desire for improvement are the qualities I would like to join in your
+             short and long term projects.
             </Typography>
             <Button
               href="/resume"

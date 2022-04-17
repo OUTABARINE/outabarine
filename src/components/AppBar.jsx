@@ -16,8 +16,8 @@ import me from "../assets/img/me.png";
 import { Link } from "@mui/material";
 
 const pages = [
-  { label: "Blog", link: "/blog" },
-  { label: "Vlog", link: process.env.REACT_APP_SM_YOUTUBE },
+  // { label: "Blog", link: "/blog" },
+  // { label: "Vlog", link: process.env.REACT_APP_SM_YOUTUBE },
   { label: "Resume", link: "/resume" },
   { label: "About", link: "/about" },
 ];
@@ -62,12 +62,12 @@ const CustomAppBar = (props) => {
             }}
           >
             <Avatar
-              alt="Fatima AMZIL"
+              alt="Omar OUTABARINE"
               src={me}
               sx={{ width: 60, height: 60 }}
             />
             <Link href="/" sx={{ mt: 2, color:"text.secondary", underline: "none"  }} variant="h6" >
-              FATIMA AMZIL
+              Omar OUTABARINE
             </Link>
           </Typography>
 

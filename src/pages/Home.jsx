@@ -42,7 +42,7 @@ export default function Home() {
             justifyContent="center"
             alignContent="center"
           >
-            Software Engineer - Business Analyst - Agile & Scrum Paster
+            Software Engineer - Business Analyst - Agile & Scrum Master
           </Typography>
         </Grid>
       </Grid>
